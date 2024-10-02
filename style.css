@@ -1,0 +1,72 @@
+﻿/* استایل‌های کلی برای بدنه سایت */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* استایل هدر */
+header {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px;
+}
+
+    header h1 {
+        margin: 0;
+    }
+
+/* استایل فرم‌ها */
+form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    form label, form input {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: left;
+    }
+
+    form input {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+button {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+    button:hover {
+        background-color: #5a54e6;
+    }
+
+/* استایل لینک‌های ناوبری */
+nav {
+    margin: 20px;
+}
+
+    nav a {
+        text-decoration: none;
+        color: #6c63ff;
+        margin: 0 10px;
+        font-size: 18px;
+    }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
