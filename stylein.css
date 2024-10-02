@@ -1,0 +1,53 @@
+﻿body {
+    background-image: url('background.jpg'); /* آدرس تصویر پس‌زمینه */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* رنگ متن */
+    margin: 0;
+    font-family: 'IRANSans', sans-serif; /* فونت پررنگ و خوانا */
+}
+
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* سایه برای نوار ناوبری */
+    font-weight: bold; /* فونت پررنگ */
+}
+
+    .navbar .nav-link {
+        font-size: 1.2em; /* اندازه فونت لینک‌ها */
+        color: #fff;
+        margin: 0 10px;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 1.5em; /* اندازه برند */
+        font-weight: bold;
+        color: #ffc107; /* رنگ برند زرد */
+    }
+
+.hero {
+    height: 100vh; /* ارتفاع صفحه */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* پس‌زمینه نیمه‌شفاف */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7); /* سایه برای بخش */
+}
+
+    .hero h1 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    .hero p {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+.btn {
+    font-size: 1.2em; /* اندازه متن دکمه */
+    padding: 10px 20px; /* فاصله داخلی دکمه */
+}

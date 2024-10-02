@@ -30,8 +30,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <h2>ارسال پست</h2>
-    <form action="post.php" method="post">
-        <textarea name="post_content" rows="5" cols="40" required></textarea>
+    <form action="posts.php" method="post">
+        <textarea name="posts_content" rows="5" cols="40" required></textarea>
         <button type="submit">ارسال</button>
     </form>
 </body>

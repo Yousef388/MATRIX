@@ -1,5 +1,7 @@
 ﻿<?php
 include 'db.php';
+$_SESSION['is_admin'] = $row['is_admin'];
+$_SESSION['is_blocked'] = $row['is_blocked'];
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
